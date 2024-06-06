@@ -50,7 +50,6 @@ class SkytilsTransformer : BaseClassTransformer() {
                 changeRenderedName()
                 insertReceivePacketEvent()
                 injectNullCheck()
-                commitArson()
                 injectScoreboardScoreRemover()
             } catch (e: Throwable) {
                 e.printStackTrace()
